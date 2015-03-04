@@ -111,15 +111,16 @@ SETGATE(intr, 0,1,2,3);
 
 请分析 [list.h](https://github.com/chyyuu/ucore_lab/blob/master/labcodes/lab2/libs/list.h)内容中大致的含义，并能include这个文件，利用其结构和功能编写一个数据结构链表操作的小C程序
 - [x]  
-	int main()
-	{
-	list_entry_t *head, *a;
-	list_init(head);
-	list_init(a);
-	list_add_after(head, a);
-	return 0;
-	}
-
+```
+	int main()   \
+	{\
+	list_entry_t *head, *a;\
+	list_init(head);\
+	list_init(a);\
+	list_add_after(head, a);\
+	return 0;\
+	}\
+```
 > 
 
 ---
@@ -129,7 +130,7 @@ SETGATE(intr, 0,1,2,3);
 ---
 
 是否愿意挑战大实验（大实验内容来源于你的想法或老师列好的题目，需要与老师协商确定，需完成基本lab，但可不参加闭卷考试），如果有，可直接给老师email或课后面谈。
-- [x]  
+- [x]  暂无意愿
 
 >  
 
