@@ -217,4 +217,4 @@ pid = 3, name = init3, status switch from runnable to zombie and resource had be
 >可以看到，1在完成step后开始休眠，休眠5个时钟后醒来。
 ### 扩展练习1: 进一步裁剪本练习中的代码，比如去掉页表的管理，只保留段机制，中断，内核线程切换，print功能。看看代码规模会小到什么程度。
 
-
+与黄杰等同学一组 已完成
